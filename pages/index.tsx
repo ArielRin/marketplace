@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
   // Connect your marketplace smart contract here (replace this address)
   const { contract: marketplace } = useContract(
-    "0x277C0FB19FeD09c785448B8d3a80a78e7A9B8952", // Your marketplace contract address here
+    "0x71c54a390Dd797ECf2f622Cd92b4be16D83F2467", // Your marketplace contract address here
     "marketplace"
   );
 
@@ -26,21 +26,21 @@ const Home: NextPage = () => {
       {/* Content */}
       <div className={styles.container}>
         {/* Top Section */}
-        <h1 className={styles.h1}>NFT Marketplace w/ thirdweb + Next.JS</h1>
+        <h1 className={styles.h1}>Sirens Treasure Trove and Marketplace</h1>
         <p className={styles.explain}>
-          Build an NFT marketplace using{" "}
+          Trade in-game collectables with{" "}
           <b>
             {" "}
             <a
-              href="https://thirdweb.com/"
+              href="https://sirenstreasure.tk/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.purple}
             >
-              thirdweb
+              SirensTreasure
             </a>
           </b>{" "}
-          to list your ERC721 and ERC1155 tokens for auction or for direct sale.
+          list your unwanted gear or buy more items. Offering auction or direct sale.
         </p>
 
         <hr className={styles.divider} />
