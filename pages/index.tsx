@@ -45,6 +45,29 @@ const Home: NextPage = () => {
 
         <hr className={styles.divider} />
 
+        <p className={styles.explain}>
+        Check our{" "}
+        <b>
+         {" "}
+        <a
+             href="https://twitter.com/SirenTrove_DEX/"
+             target="_blank"
+             rel="noopener noreferrer"
+             className={styles.cyan}
+           >
+           Twitter
+        </a>
+        </b>{" "}
+        for latest features and news at Sirens Treasure.
+         Please Note that all successful sales through our marketplace have a fee of 2% sent to the Sirens Treasure Trove Treasury.
+         Add this into consideration when listing your NFT.
+        </p>
+        <p className={styles.explain}>
+         Thanks for using our NFT Marketplace.
+        </p>
+        <p className={styles.explain}>
+         Ariel Ryn
+        </p>
         <div style={{ marginTop: 32, marginBottom: 32 }}>
           <Link href="/create">
             <a className={styles.mainButton} style={{ textDecoration: "none" }}>
@@ -93,21 +116,6 @@ const Home: NextPage = () => {
             )
           }
         </div>
-        <p className={styles.explain}>
-          Check our{" "}
-          <b>
-            {" "}
-            <a
-              href="https://twitter.com/SirenTrove_DEX/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.cyan}
-            >
-              Twitter
-            </a>
-          </b>{" "}
-          for latest features and news at Sirens Treasure.
-        </p>
         <div className={styles.left}>
           <div>
             <Link href="/" passHref role="button">

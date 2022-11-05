@@ -17,20 +17,20 @@ export default function Header() {
             <img
               src={`/logo.gif`}
               alt="Sirens Treasure Trove"
-              width={250}
+              width={300}
               style={{ cursor: "pointer" }}
             />
           </Link>
         </div>
       </div>
 
-      <div className={styles.center}>
+      <div className={styles.left}>
          <Link href="https://docs.sirenstreasure.tk">
             <div>Docs</div>
          </Link>
       </div>
 
-      <div className={styles.center}>
+      <div className={styles.left}>
          <Link href="https://swap.sirenstreasure.tk">
             <div> Exchange </div>
          </Link>
