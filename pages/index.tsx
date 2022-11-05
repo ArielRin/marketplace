@@ -26,21 +26,18 @@ const Home: NextPage = () => {
       {/* Content */}
       <div className={styles.container}>
         {/* Top Section */}
-        <h1 className={styles.h1}>Sirens Treasure Trove NFT Marketplace</h1>
-        <p className={styles.explain}>
-          Trade in-game collectables with{" "}
-          <b>
-            {" "}
-            <a
-              href="https://sirenstreasure.tk/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.cyan}
-            >
-              SirensTreasure
-            </a>
-          </b>{" "}
-          list your unwanted gear or buy more items. Offering auction or direct sale.
+        <div>
+          <Link href="/" passHref role="button">
+            <img
+              src={`/logo.gif`}
+              alt="Sirens Treasure Trove"
+              width={600}
+              style={{ cursor: "pointer" }}
+            />
+          </Link>
+        </div>
+        <p className={styles.h1}>
+          Trade in-game collectables with SirensTreasure. List your unwanted gear or buy more items.
         </p>
 
         <hr className={styles.divider} />
