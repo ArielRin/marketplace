@@ -26,6 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Header />
       <Component {...pageProps} />
+
       <ThirdwebGuideFooter />
     </ThirdwebProvider>
   );

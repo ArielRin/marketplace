@@ -157,6 +157,20 @@ const ListingPage: NextPage = () => {
             </div>
           </div>
         </div>
+
+
+
+      <div className={styles.rightListing}>
+        <h1>{listing.asset.name}</h1>
+        <p>
+          Owned by{" "}
+          <b>
+            {listing.sellerAddress?.slice(0, 6) +
+              "..." +
+              listing.sellerAddress?.slice(36, 40)}
+          </b>
+        </p>
+      </div>
       </div>
     </div>
   );

@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       {/* Content */}
       <div className={styles.container}>
         {/* Top Section */}
-        <h1 className={styles.h1}>Sirens Treasure Trove and Marketplace</h1>
+        <h1 className={styles.h1}>Sirens Treasure Trove NFT Marketplace</h1>
         <p className={styles.explain}>
           Trade in-game collectables with{" "}
           <b>
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
               href="https://sirenstreasure.tk/"
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.purple}
+              className={styles.cyan}
             >
               SirensTreasure
             </a>
@@ -86,11 +86,39 @@ const Home: NextPage = () => {
                       <b>{listing.buyoutCurrencyValuePerToken.displayValue}</b>{" "}
                       {listing.buyoutCurrencyValuePerToken.symbol}
                     </p>
+
                   </div>
                 ))}
               </div>
             )
           }
+        </div>
+        <p className={styles.explain}>
+          Check our{" "}
+          <b>
+            {" "}
+            <a
+              href="https://twitter.com/SirenTrove_DEX/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.cyan}
+            >
+              Twitter
+            </a>
+          </b>{" "}
+          for latest features and news at Sirens Treasure.
+        </p>
+        <div className={styles.left}>
+          <div>
+            <Link href="/" passHref role="button">
+              <img
+                src={`/ArielRynStand.gif`}
+                alt="Sirens Treasure Trove"
+                width={400}
+                style={{ cursor: "pointer" }}
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </>

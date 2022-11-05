@@ -23,6 +23,19 @@ export default function Header() {
           </Link>
         </div>
       </div>
+
+      <div className={styles.center}>
+         <Link href="https://docs.sirenstreasure.tk">
+            <div>Docs</div>
+         </Link>
+      </div>
+
+      <div className={styles.center}>
+         <Link href="https://swap.sirenstreasure.tk">
+            <div> Exchange </div>
+         </Link>
+      </div>
+
       <div className={styles.right}>
         {address ? (
           <>

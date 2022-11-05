@@ -32,8 +32,11 @@ select {
 }
 
 body {
-  background: var(--black);
-  font-family: "Inter", sans-serif;
+  background-image: url(/oldbkg.gif);
+  background-size: cover;
+  background-position: centre;
+  backgroundSize: 'cover';
+  font-family: "Comic Sans MS", Comic Sans MS;
   color: var(--white);
   display: flex;
   margin: 0;
