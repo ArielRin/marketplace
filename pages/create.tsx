@@ -11,6 +11,7 @@ import {
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import styles from "../styles/Home.module.css";
+import { client } from '../lib/sanityClient'
 
 const Create: NextPage = () => {
   // Next JS Router hook to redirect to other pages
@@ -20,7 +21,7 @@ const Create: NextPage = () => {
 
   // Connect to our marketplace contract via the useContract hook
   const { contract: marketplace } = useContract(
-    "0x71c54a390Dd797ECf2f622Cd92b4be16D83F2467", // Your marketplace contract address here
+    "0x8F839d94A09EAc66B034bC77B59F45809Cf8f06b", // Your marketplace contract address here
     "marketplace"
   );
 
@@ -138,7 +139,7 @@ const Create: NextPage = () => {
             <label htmlFor="directListing" className={styles.listingTypeLabel}>
               Direct Listing
             </label>
-            
+
           </div>
 
           {/* NFT Contract Address Field */}

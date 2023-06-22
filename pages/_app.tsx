@@ -5,13 +5,14 @@ import "../styles/globals.css";
 import Head from "next/head";
 import ThirdwebGuideFooter from "../components/ThirdwebGuideFooter";
 import Header from "../components/Header";
+import { client } from '../lib/sanityClient'
 
 // This is the chainId your dApp will work on.
-const activeChainId = ChainId.Mumbai;
+const activeChainId = ChainId.2611;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider desiredChainId={activeChainId}>
+    <ThirdwebProvider desiredChainId={2611}>
       <Head>
         <title>Sirens NFT Treasure Trove</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
